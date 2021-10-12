@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Background image --> 
+ 
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Reed Desgins - Corbin Davis</title>
+  <meta name="description" content="Portfolio for Corbin Davis.">
+  <meta name="author" content="Corbin Davis">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='http://fonts.googleapis.com/css?family=Yaldevi' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Ephesis' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Cormorant+Garamond' rel='stylesheet' type='text/css'>
+   <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  	
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.svg">
+
+  
+</head>
+<body>
+
+<header class="main_nav maroon">
+	<div class="container">
+		<div class="twelve columns">
+			<div class="logo"><a href="#">Reed Designs</a></div>
+		</div>
+	</div>
+</header>
+
+<div class="container main">
+	<div class="row">
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/bakery-1.jpg"><img src="images/bakery-1.jpg" /></a>
+		</div>
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/laying-girl.jpg"><img src="images/laying-girl.jpg" /></a>
+		</div>
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/bakery-2.jpg"><img src="images/bakery-2.jpg" /></a>
+		</div>
+	</div>
+	
+	<div class="row">
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/Menu.jpg"><img src="images/Menu.jpg" /></a>
+		</div>
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/illustration.jpg"><img src="images/illustration.jpg" /></a>
+		</div>
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/Menu2.jpg"><img src="images/Menu2.jpg" /></a>
+		</div>
+	</div>
+	
+	<div class="row" style="margin-bottom: 10%;">
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/Logosts.jpg"><img src="images/Logosts.jpg" /></a>
+		</div>
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/cheese.jpg"><img src="images/cheese.jpg" /></a>
+		</div>
+		<div class="four columns portfolio">
+			<a class="image-link" href="images/webdesign.jpg"><img src="images/webdesign.jpg" /></a>
+		</div>
+	</div>	
+</div><!--Container-->
+
+<div class="row maroon">
+	<div class="container">
+		<div class="four columns">
+			<img class="avatar" src="images/corbin.png" />
+		</div>
+		<div class="eight columns">
+			<h2 class="bio">Who is Corbin Davis?</h2>
+			<p class="bio">Hello,<br><blockquote>I am a graphic designer with a passion for presenting designs that my clients will love. I have a very adventurous personality and it transfers into my design work. I love trying new things, because of that I am very flexible in my work.</blockquote></p>
+		</div>
+	</div>
+</div><!--Row Green-->
+	
+<footer>
+	<div class="container">
+		<div class="row twelve columns">
+			<ul class="social">
+			<li class="facebook"><a href="#"><i class="fa fa-facebook-square fa-lg"></i></a></li>
+			<li class="twitter"><a href="#"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+			<li class="instagram"><a href="#"><i class="fa fa-instagram fa-lg"></i></a></li>
+			<li class="flickr"><a href="#"><i class="fa fa-flickr fa-lg"></i></a></li>
+			<li class="youtube"><a href="#"><i class="fa fa-youtube-square fa-lg"></i></a></li>
+			<li class="linkedin"><a href="#"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+			</ul>
+		</div>
+		<div class="row twelve columns">
+			<p class="copyright">&copy; 2021 Corbin Davis Designs. All Rights Reserved.</p>
+		</div>
+	</div>
+</footer>
+	
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="scripts/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+	 $('.image-link').magnificPopup({ 
+  type: 'image',
+  mainClass: 'mfp-with-zoom', // this class is for CSS animation below
+
+  zoom: {
+    enabled: true, // By default it's false, so don't forget to enable it
+
+    duration: 300, // duration of the effect, in milliseconds
+    easing: 'ease-in-out', // CSS transition easing function 
+
+    // The "opener" function should return the element from which popup will be zoomed in
+    // and to which popup will be scaled down
+    // By defailt it looks for an image tag:
+    opener: function(openerElement) {
+      // openerElement is the element on which popup was initialized, in this case its <a> tag
+      // you don't need to add "opener" option if this code matches your needs, it's defailt one.
+      return openerElement.is('img') ? openerElement : openerElement.find('img');
+    }
+  }
+
+});	</script>
+</body>
+</html>
